@@ -1,0 +1,6 @@
+<!--pages/index/childcpn/popular/popular.wxml-->
+<!-- 展示每周流行 -->
+
+<view>
+  <image class="popular_img" src="/assets/home/recommend_bg.jpg" mode="widthFix"></image>
+</view>

@@ -1,0 +1,37 @@
+/* pages/profile/childcpn/w-header/w-header.wxss */
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff5777;
+  padding: 30rpx;
+}
+.header-logo{
+  width: 230rpx;
+  
+}
+.header-logo image{
+  width: 120rpx;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.header-user{
+  padding-top: 22rpx;
+  color: #fff;
+  width: 530rpx;
+  margin-left: 48rpx;
+}
+.header-user .user-img{
+  width: 30rpx;
+  vertical-align: middle;
+}
+.user-phone{
+  font-size: 28rpx;
+}
+.right-img{
+  flex: 1;
+  margin-left: 148rpx;
+}
+.right-img image{
+  padding-top: 22rpx;
+  width: 80rpx;
+}

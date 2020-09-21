@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-goods": "/component/w-goods/w-goods",
+    "w-contral": "/component/w-contral/w-contral"
+
+  }
+}

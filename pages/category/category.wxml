@@ -1,0 +1,10 @@
+<!--pages/categroy/categroy.wxml-->
+<view class="category">
+    <w-menu categories="{{categories}}"
+            currentIndex="{{currentIndex}}"
+            bind:handleMenuItem="handleMenuItem" /> 
+
+    <w-content subcategories="{{categoryData.subcategories}}"
+               categoryDetail="{{categoryData.categoryDetail}}"
+               bind:handlecontral="handlecontral"/>
+</view>

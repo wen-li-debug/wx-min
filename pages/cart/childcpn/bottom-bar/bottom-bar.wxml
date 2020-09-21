@@ -1,0 +1,14 @@
+<!--pages/cart/childcpn/bottom-bar/bottom-bar.wxml-->
+
+<view class="bottom-bar">
+  <view class="bar-box">
+    <w-checked-icon class="bar-box-icon" isChecked="{{isSelectAll}}"/>
+    <view class="bar-box-check">全选</view>
+  </view>
+  <view class="price">
+    总计: ￥{{totalPrice}}
+  </view>
+  <view class="count">
+    <view>去计算({{totalCounter}})</view>
+  </view>
+</view>

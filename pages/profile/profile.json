@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "w-header": "./childcpn/w-header/w-header",
+    "w-info": "./childcpn/w-info/w-info",
+    "w-list": "./childcpn/w-list/w-list"
+
+
+  }
+}

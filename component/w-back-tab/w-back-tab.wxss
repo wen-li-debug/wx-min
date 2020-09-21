@@ -1,0 +1,6 @@
+/* component/w-back-tab/w-back-tab.wxss */
+
+.back-tab .back-tab-image{
+  width: 100rpx;
+  height: 100rpx;
+}

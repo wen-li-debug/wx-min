@@ -1,0 +1,4 @@
+<!--component/w-back-tab/w-back-tab.wxml-->
+<view class="back-tab" bind:tap="backTabClick" wx:if="{{isShow}}">
+  <image class="back-tab-image" src="/assets/common/top.png" mode="widthFix"></image>
+</view>

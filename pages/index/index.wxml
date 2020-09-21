@@ -1,0 +1,32 @@
+
+
+<w-contral titles="{{titles}}" 
+           bind:handlecontral="handleTabClick"
+           class="{{isFixed ? 'fixed': ''}}"
+           wx:if="{{isFixed}}"
+           />
+
+<!-- 轮播图 -->
+
+<w-swiper list="{{banner}}" />
+
+<!-- recommend 信息展示 -->
+<w-recommend recommend="{{recommend}}" bind:handleImg="handleImgFixed" />
+
+<!-- 展示本周流行信息 -->
+
+<w-popular />
+
+<!-- tab-contarl 栏框 -->
+
+
+
+<w-contral titles="{{titles}}" bind:handlecontral="handleTabClick" id="tab-control" />
+
+<!-- 商品goods展示 -->
+
+<w-goods goodsList="{{goods[cureentType].list}}" />
+
+<!-- 返回顶部 -->
+
+<w-back-tab isShow="{{isShow}}" class="w-back-tab"/>

@@ -1,0 +1,9 @@
+/* pages/detail/detail.wxss */
+.d-swiper swiper{
+  height: 800rpx;
+}
+.w-back-tab {
+  position: fixed;
+  bottom: 140rpx; 
+  right: 30rpx;
+}

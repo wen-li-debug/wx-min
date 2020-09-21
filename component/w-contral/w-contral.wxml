@@ -1,0 +1,10 @@
+<!--component/w-contral/w-contral.wxml-->
+<view class="tab_contral">
+  <block wx:for="{{titles}}" wx:key="index">
+    <view class="tab_contral_item {{index === cureent ? 'active': ''}}" 
+          bind:tap="contralClick" 
+          data-index="{{index}}" >
+      <text class="tab_contral_context">{{item}}</text>
+    </view>
+  </block>
+</view>

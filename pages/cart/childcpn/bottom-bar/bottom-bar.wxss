@@ -1,0 +1,35 @@
+/* pages/cart/childcpn/bottom-bar/bottom-bar.wxss */
+.bottom-bar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #eee;
+  height: 80rpx;
+  padding-left: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.bar-box{
+  display: flex;
+  width: 150rpx;
+  align-items: center;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.bar-box-check{
+  margin-left: 10rpx;
+}
+
+.price{
+  flex: 1;
+}
+.count{
+  width: 220rpx;
+  height: 80rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+  background-color: #ff4500;
+}

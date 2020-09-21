@@ -1,0 +1,17 @@
+<!--pages/cart/childcpn/cartitem/cartItem.wxml-->
+<view class="cartItem">
+  <view class="cartItem-icon">
+    <w-checked-icon bind:tap="onCheckClick" data-index="{{index}}" isChecked="{{goodsList.checked}}"/>
+  </view>
+  <view class="cartItem-img">
+    <image src="{{goodsList.imgUrl}}"></image>
+  </view>
+  <view class="cartItem-other">
+    <view class="title">{{goodsList.title}}</view>
+    <view class="desc">{{goodsList.desc}}</view>
+    <view class="cartItem-price">
+      <view class="price">￥{{goodsList.price}}</view>
+      <view class="count">x{{goodsList.count}}</view>
+    </view>
+  </view>
+</view>

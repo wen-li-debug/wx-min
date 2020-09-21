@@ -1,0 +1,9 @@
+<!--pages/detail/childcpn/recommend/recommend.wxml-->
+<view>
+  <view>
+    <text>商品推荐</text>
+  </view>
+  <view>
+    <w-goods goodsList="{{recommends}}"/>
+  </view>
+</view>

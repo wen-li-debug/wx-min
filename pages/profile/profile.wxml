@@ -1,0 +1,8 @@
+<!--pages/profile/profile.wxml-->
+
+<w-header />
+
+<w-info />
+
+<w-list infos="{{orderList}}"/>
+<w-list infos="{{serviceList}}"/>

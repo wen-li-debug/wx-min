@@ -1,0 +1,5 @@
+/* pages/index/childcpn/popular/popular.wxss */
+
+.popular_img{
+  width: 100%;
+}

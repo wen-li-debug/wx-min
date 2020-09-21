@@ -1,0 +1,55 @@
+/* pages/detail/childcpn/shopInfo/shopInfo.wxss */
+
+.shopInfo{
+  padding: 16rpx 12rpx 15rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+.title-info{
+  margin-top: 30rpx;
+}
+.title-info image{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  vertical-align: middle;
+}
+.title-info text{
+  margin-left: 20rpx;
+}
+.sell-info{
+  display: flex;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+.sell-info .sell-item{
+  flex: 1;
+}
+.count-info{
+  display: flex;
+  border-right: 1px solid rgba(200, 200, 200, .6) 
+}
+.count-item{
+  flex: 1;
+}
+.grade-info{
+  margin-left: 30rpx;
+}
+.grade-row{
+  display: flex;
+}
+.item{
+  flex: 1;
+  font-size: 24rpx;
+}
+.entrance{
+  margin-top: 35rpx;
+  text-align: center;
+}
+.good {
+  color: #ff5777;
+}
+
+.less {
+  color: #5ea732;
+}

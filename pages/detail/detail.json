@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "w-swiper": "/component/w-swiper/w-swiper",
+    "w-baseInfo": "./childcpn/baseInfo/baseInfo",
+    "w-bottom-bar": "./childcpn/bottom-bar/bottom-bar",
+    "w-shopInfo": "./childcpn/shopInfo/shopInfo",
+    "w-detailInfo": "./childcpn/detailInfo/detailInfo",
+    "w-paramInfo": "./childcpn/paramInfo/paramInfo",
+    "w-back-tab": "/component/w-back-tab/w-back-tab",
+    "w-commentInfo": "./childcpn/commentInfo/commentInfo",
+    "w-recommend": "./childcpn/recommend/recommend"
+  }
+}

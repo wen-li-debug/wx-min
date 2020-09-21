@@ -1,0 +1,20 @@
+/* component/w-contral/w-contral.wxss */
+
+.tab_contral{
+  display: flex;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+  padding-bottom: 12rpx;
+}
+.tab_contral_item{
+  flex: 1;
+}
+.active{
+  color: red;
+}
+.active .tab_contral_context{
+  border-bottom: 2px solid red;
+  padding: 26rpx;
+}

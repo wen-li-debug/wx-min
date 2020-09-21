@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-checked-icon" : "/component/w-checked-icon/w-checked-icon"
+   
+
+  }
+}

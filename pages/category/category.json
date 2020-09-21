@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "w-menu": "./childcpn/w-menu/w-menu",
+    "w-content": "./childcpn/w-content/w-content"
+
+  }
+}

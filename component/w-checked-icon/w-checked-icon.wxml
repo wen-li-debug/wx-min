@@ -1,0 +1,8 @@
+<!--component/w-checked-icon/w-checked-icon.wxml-->
+
+<icon class="icon"
+      type="success" 
+      size="18"
+      style="border-color: {{isChecked ? '#ff5777' : '#aaa'}}"
+      color="{{isChecked ? '#ff5777' : '#fff'}}"/>
+
