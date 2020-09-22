@@ -1,11 +1,11 @@
 /* pages/categroy/categroy.wxss */
-.category{
+page{
   display: flex;
   height: 100%;
 }
-.category w-menu{
+w-menu{
   width: 30%;
 }
-.category w-content{
+w-content{
   width: 70%;
 }

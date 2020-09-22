@@ -10,8 +10,8 @@
   </view>
 
   <!-- 2.工具栏 -->
-  <w-tab-control titles="{{['综合', '新品', '销量']}}"
-                 bind:tabclick="tabClick"/>
+  <w-tab-contral titles="{{title}}"
+                 bind:handlecontral="handlecontral"/>
 
   <!-- 3.详情数据展示 -->
   <view class='detail'>
